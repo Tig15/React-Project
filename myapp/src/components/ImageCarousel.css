@@ -1,0 +1,61 @@
+body{
+    background-color: coral;
+}
+
+.flower-carous{
+    position: relative;
+    padding: 24px;
+    overflow: hidden;
+}
+
+.flower-cont{
+    display: flex;
+    padding: 0px 12x;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    gap: 10px;
+}
+
+.prev-btn, .next-btn{
+    margin: 12px;
+    border:none;
+    width: 60px;
+    height: 30%;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+
+.prev-btn{
+    left: -5px;
+}
+
+.next-btn{
+    right: -14px;
+}
+
+.next-btn p, .prev-btn p{
+  font-size: 80px;
+  height: 140px;
+  border-radius: 20px;
+  background-color: burlywood;
+  text-align: center;
+  color: chocolate;
+  cursor: pointer;
+  
+}
+
+.next-btn p:hover, .prev-btn p:hover{
+    color: cadetblue;
+}
+
+.prev-btn p{
+    box-shadow: -10px 0 12px sienna;
+}
+
+.next-btn p{
+    box-shadow: 10px 0 12px sienna;
+}
